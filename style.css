@@ -1,0 +1,175 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(#01497C, #2A6F97);
+}
+
+body {
+    margin: 30px;
+}
+
+h1 {
+    color: white;
+}
+
+#listsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.list,
+.list-form {
+    border-radius: 10px;
+    background-color: #012A4A;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    min-width: 300px;
+    height: fit-content;
+    margin-right: 20px;
+    box-shadow: 0px 25px 20px 0px #012a4aa3;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 10px 0px 10px 0px;
+    background-color: white;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+}
+
+.checked {
+    text-decoration: line-through;
+    text-decoration-color: #2C7DA0;
+    text-decoration-thickness: 3px;
+}
+
+.newListBtn {
+    background-color: rgb(95, 95, 95);
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.createListBtn {
+    width: 80%;
+    background-color: #01497C;
+}
+
+.revertBtn {
+    background-color: rgba(0, 0, 0, 0.426);
+    width: 20%;
+}
+
+.hidden {
+    display: none;
+}
+
+.date {
+    font-size: 12px;
+    color: grey;
+}
+
+p {
+    width: 180px;
+    word-wrap: break-word;
+    margin: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    width: 220px;
+    word-wrap: break-word;
+    margin: 0px;
+    align-self: center;
+}
+
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+}
+
+img {
+    width: 35px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+img:hover {
+    filter: brightness(.8);
+    transition: .3s;
+}
+
+button {
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.deleteListBtn {
+    background-color: rgb(218, 59, 48);
+    transition: .25s all;
+}
+
+.deleteListBtn:hover {
+    background-color: rgb(166, 40, 35);
+    transition: .25s all;
+}
+
+.addBtn {
+    width: 100%;
+    background-color: #2C7DA0;
+    margin: 5px 0px 5px 0px;
+    transition: .25s all;
+}
+
+
+.addBtn:hover {
+    background-color: #014F86;
+    transition: .25s all;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: .25s all;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
